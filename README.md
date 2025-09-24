@@ -30,7 +30,9 @@ I’ve created a proof of concept visualization of this data. It's a scatterplot
 
 [![image](https://github.com/user-attachments/assets/45cb95e5-8833-4bf7-99af-da2e6be1917d)](https://vizhub.com/ejhudson33/cd2fcf9c405c4ffda0289e2c315575de)
 
+Here is another prototype that I created that resembles one of my sketches more closely. It is a bar chart that shows average hitting percentage per school. In future iterations, I would like to parse the data not only by school but by year similar to my sketches. I also need to go back to the original CSV file and pull all data for Big Ten Schools. For these iterations, I only chose the top 4000 lines of the CSV. 
 
+[![image](https://github.com/user-attachments/assets/c073feba-37fd-417b-bb7d-d45f6070ecb7)](https://vizhub.com/ejhudson33/48c0a216565f489fb56cb74f4c3d60ce)
 
 ## Open Questions
 
