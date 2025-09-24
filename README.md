@@ -26,26 +26,17 @@ Another version of this chart could show the average change in their players hit
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a scatterplot and it shows ...
+I’ve created a proof of concept visualization of this data. It's a scatterplot and it shows kills v.s. hitting percentage for players in the Big Ten Conference during the years 2012-2019. This visualization is fairly simple, but it serves as the first step toward the more advanced designs I outlined in my sketches. It can be seen below.
 
 [![image](https://github.com/user-attachments/assets/45cb95e5-8833-4bf7-99af-da2e6be1917d)](https://vizhub.com/ejhudson33/cd2fcf9c405c4ffda0289e2c315575de)
 
 
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
-
-You can put images into here by pasting them into issues.
-
-You can make images into links like this:
-
-```
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-```
-
 
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+One fear that I have is that the CSV file from Kaggle contains more than just Big Ten data and it is quite large. I am worried about being able to extract only teams that are in the Big Ten Conference before putting the data into DataViz. One I have the data laoded, I am confident that I will be able to manipulate it how I need. 
+
 
 ## Milestones
 
-(for each week, estimate what would be accomplised)
+I hoping by the beginning of October, I am able to filter the original CSV to only contain Big Ten schools and have it imported in DataViz. In October, I hope to get the basic design completed as well as any moving/dynamic parts completed. For November, I hope to finalize any details of the visualizaion that I did not complete in October and begin the writing process. 
