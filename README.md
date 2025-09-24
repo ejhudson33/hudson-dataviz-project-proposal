@@ -29,7 +29,7 @@ Another version of this chart could show the average change in their players hit
 I’ve created a proof of concept visualization of this data. It's a scatterplot and it shows ...
 
 [![image](<img width="1922" height="1084" alt="image" src="https://github.com/user-attachments/assets/45cb95e5-8833-4bf7-99af-da2e6be1917d" />
-]([https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4](https://vizhub.com/ejhudson33/cd2fcf9c405c4ffda0289e2c315575de))
+]https://vizhub.com/ejhudson33/cd2fcf9c405c4ffda0289e2c315575de)
 
 (please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
 
