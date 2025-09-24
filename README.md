@@ -10,8 +10,8 @@ The data I propose to visualize for my project is a NCAA Women's Volleyball Boxs
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
  * Is there a relationsip between final standings and hitting percentage or digs per a game? 
- * Do players at certain schools improve their stats over time more dramatically than players at other schools?
- * Does a team's digs per a set or kills per a game correlate to winning percentage? 
+ * Do players at certain schools improve their stats over time more dramatically than players at other schools? Do these schools that improve their athlete's hitting percentage quicker have a better standing in the conference?
+  
 
 ## Sketches
 
