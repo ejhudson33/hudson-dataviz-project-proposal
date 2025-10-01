@@ -34,6 +34,11 @@ Here is another prototype that I created that resembles one of my sketches more 
 
 [![image](https://github.com/user-attachments/assets/c073feba-37fd-417b-bb7d-d45f6070ecb7)](https://vizhub.com/ejhudson33/48c0a216565f489fb56cb74f4c3d60ce)
 
+Here is the next iteration of my project. I changed the X axis to show average digs for each school and made the chart a scatterplot. You can also hover over each circle to see which school it is representing. 
+[![image](https://github.com/user-attachments/assets/fdd00e54-ee31-4a04-ba49-9e29af218982)](https://vizhub.com/ejhudson33/4f2e32f4551e42b281920e39476a553b)
+
+
+
 ## Open Questions
 
 One fear that I have is that the CSV file from Kaggle contains more than just Big Ten data and it is quite large. I am worried about being able to extract only teams that are in the Big Ten Conference before putting the data into DataViz. One I have the data laoded, I am confident that I will be able to manipulate it how I need. 
