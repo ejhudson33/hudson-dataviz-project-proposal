@@ -37,11 +37,16 @@ Here is another prototype that I created that resembles one of my sketches more 
 Here is the next iteration of my project. I changed the X axis to show average digs for each school and made the chart a scatterplot. You can also hover over each circle to see which school it is representing. 
 [![image](https://github.com/user-attachments/assets/fdd00e54-ee31-4a04-ba49-9e29af218982)](https://vizhub.com/ejhudson33/4f2e32f4551e42b281920e39476a553b)
 
+For the next iteration of my project, I decided to add movement to the graph. If a user presses the 'Play' button, the points will move throughout the graph to represent data for 2017, 2018 an 2019. Tje points now have letters to represent each school. If you hover over one of the points, it will show the average hitting percentage and average digs for that season. I also removed the background color to make the visualization smoother.
+[![image](https://github.com/user-attachments/assets/987a0954-0cdf-47a2-8993-1b30316c5fc6)](https://vizhub.com/ejhudson33/62c551490c8348e4a829fc3c8d3a466a?mode=embed)
 
 
 ## Open Questions
 
 One fear that I have is that the CSV file from Kaggle contains more than just Big Ten data and it is quite large. I am worried about being able to extract only teams that are in the Big Ten Conference before putting the data into DataViz. One I have the data laoded, I am confident that I will be able to manipulate it how I need. 
+--I was able to solve that problem above. My solution was to remove columns that I was not using to reduce the size of the file and to use more years worth of data. 
+
+As of now, I am wondering what else I can add to my visualization. It has color, movement and the ability to show more data when hovering over a point. I think that I may add the rankings of the team for that season on the side so a user can compare a team's finish for that season to their statistics. 
 
 
 ## Milestones
