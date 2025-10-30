@@ -37,8 +37,12 @@ Here is another prototype that I created that resembles one of my sketches more 
 Here is the next iteration of my project. I changed the X axis to show average digs for each school and made the chart a scatterplot. You can also hover over each circle to see which school it is representing. 
 [![image](https://github.com/user-attachments/assets/fdd00e54-ee31-4a04-ba49-9e29af218982)](https://vizhub.com/ejhudson33/4f2e32f4551e42b281920e39476a553b)
 
-For the next iteration of my project, I decided to add movement to the graph. If a user presses the 'Play' button, the points will move throughout the graph to represent data for 2017, 2018 an 2019. Tje points now have letters to represent each school. If you hover over one of the points, it will show the average hitting percentage and average digs for that season. I also removed the background color to make the visualization smoother.
+For the next iteration of my project, I decided to add movement to the graph. If a user presses the 'Play' button, the points will move throughout the graph to represent data for 2017, 2018 an 2019. The points now have letters to represent each school. If you hover over one of the points, it will show the average hitting percentage and average digs for that season. I also removed the background color to make the visualization smoother.
 [![image](https://github.com/user-attachments/assets/987a0954-0cdf-47a2-8993-1b30316c5fc6)](https://vizhub.com/ejhudson33/62c551490c8348e4a829fc3c8d3a466a?mode=embed)
+
+My latest iteration is similar to the past one, however, I have been working on readability. I added lines on the chart to make it easier to see where each point lies as well as adjusting the x axis. 
+
+[![image](https://github.com/user-attachments/assets/b41e5191-8778-4e75-888d-42cbcc9eeddf)(https://vizhub.com/ejhudson33/15ca03d986b740ada71e3b29cfa5c819)
 
 
 ## Open Questions
@@ -48,6 +52,7 @@ One fear that I have is that the CSV file from Kaggle contains more than just Bi
 
 As of now, I am wondering what else I can add to my visualization. It has color, movement and the ability to show more data when hovering over a point. I think that I may add the rankings of the team for that season on the side so a user can compare a team's finish for that season to their statistics. 
 
+I am also concerned about the overlapping of data points on the chart. I am not sure how to make it easier to read since some of the teams have similar stats. I am thinking that I will either make the points smaller, or just have their logos on the chart. Having the logos makes it easier for users to recognize what school it is.
 
 ## Milestones
 
