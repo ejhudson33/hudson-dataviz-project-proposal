@@ -44,6 +44,9 @@ My latest iteration is similar to the past one, however, I have been working on 
 
 [![image](https://github.com/user-attachments/assets/b41e5191-8778-4e75-888d-42cbcc9eeddf)(https://vizhub.com/ejhudson33/15ca03d986b740ada71e3b29cfa5c819)
 
+To add to the readability of the graphic, I decided to make the points on the graph less opaque so that it was easier to see schools that were overlapping. It makes it a little easier to read, but I still feel like it is difficult to identify some schools that are overlapped by ohers. I also decided to add a legend so that a user can see the total list of schools. 
+
+[![image](https://github.com/user-attachments/assets/a2f7129c-ebbe-4a91-80f3-f527c3e8c2fc)(https://vizhub.com/ejhudson33/5b49a3acdda64be5bb6eb06e828292f4)
 
 ## Open Questions
 
