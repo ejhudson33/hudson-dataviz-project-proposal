@@ -1,5 +1,9 @@
 # Emily Hudson Data Visualization Project
 
+## Introduction 
+
+Volleyball is a complicated sport that requires the balance between an aggressive offense and solid defense. Finding training strategies that incorporate both of these objectives can be challenging. However, by studying the mindset, training and technique of the players in the Big Ten Division (one of the highest levels of volleyball in the country), we can find strategies that have been successful at creating a balance on the court. It can also be important to study teams that have imporved over the years by developing new training or recruiting strategies and helped them dominate in the league. 
+
 ## Data
 
 The data I propose to visualize for my project is a NCAA Women's Volleyball Boxscore Dataset. There are 26 different attributes ranging from hitting percentage, number of aces, sets played and several others. The dataset can be found here: https://www.kaggle.com/datasets/tylerwiddison/ncaa-womens-volleyball-boxscores-20122019?resource=download&select=ncaa_w_boxscores_2012-2019.csv
@@ -9,28 +13,27 @@ The data I propose to visualize for my project is a NCAA Women's Volleyball Boxs
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * Is there a relationsip between final standings and hitting percentage or digs per a game? 
- * Do players at certain schools improve their stats over time more dramatically than players at other schools? Do these schools that improve their athlete's hitting percentage quicker have a better standing in the conference?
+ * Is there a relationsip between final standings and hitting percentage or digs per a game? Or does making improvements in areas that are not tracked by statistics more important in terms of success (less unforced errors, mindset, new coaching staff, etc)?
+ * Do players at certain schools improve their stats over time more dramatically than players at other schools? Do these schools that improve their athlete's hitting percentage quicker have a better standing in the conference? 
   
 
 ## Sketches
 
-This sketch shows a visualization that compares hitting percentages across schools for multiple years. This visualization can be altered to show more than two years worth of data to help answer the question regarding other schools improving their player's performance more efficiently than others. 
+The first sketch I came up was during my initial brainstorm. It shows a visualization that compares hitting percentages across schools for multiple years. This visualization can be altered to show more than two years worth of data to help answer the question regarding other schools improving their player's performance more efficiently than others. Unfortunately, I did not end up moving foward with this sketch because it would be difficult to show all schools in the league over multiple years. This sketch could be successful at answering a question about a smaller number of schools over a larger time period. 
+
 <img width="1596" height="1218" alt="image" src="https://github.com/user-attachments/assets/3d18de03-b5ed-4ec7-aefe-c1c90308ec6c" />
 
-Another sketch that I created that is more dynamic and shows a second attribute of the data is attached below. It is a chart that has circles that represent each Big Ten school. The circles would start showing the average of each teams average digs per a game (X-axis) and average hitting percentage (Y-Axis) for 2012. The chart would dynamically change to show this data for each year until 2019.  
+Another sketch that I created that is more dynamic and shows a second attribute of the data is attached below. It is a chart that has circles that represent each Big Ten school. The circles would start showing the average of each teams average digs per a game (X-axis) and average hitting percentage (Y-Axis) for 2012. The chart would dynamically change to show this data for each year until 2019. I ended up moving forward with this design because I felt that it answered the questions I was proposing the best. It allows for a user to easily see all of the schools and their stats for each year without it being too overwhelming. 
 
 <img width="1548" height="564" alt="image" src="https://github.com/user-attachments/assets/71364adb-35f2-4904-a806-7f3d7e8b06d5" />
 
-Another version of this chart could show the average change in their players hitting percentage or digs per a game. This chart would only take in consideration players who have been on the team for at least 2 years. It would average the difference between each player's most recent hitting percentage and the previous year.This would indicate whether players, on average, show an improvement or decline in hitting.
-
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a scatterplot and it shows kills v.s. hitting percentage for players in the Big Ten Conference during the years 2012-2019. This visualization is fairly simple, but it serves as the first step toward the more advanced designs I outlined in my sketches. It can be seen below.
+My first step in moving forward with this project was to create a proof of concept visualization of this data. It's a scatterplot and it shows kills v.s. hitting percentage for players in the Big Ten Conference during the years 2012-2019. This visualization is fairly simple, but it serves as the first step toward the more advanced designs I outlined in my sketches. The purpose was to become familiar with using the VizHub platform and get some data onto the screen. At this point in the project, I was struggling with the volume of data in this CSV file. This was due to keeping all the information about individual players instead of grouping it by team because I was hoping I could do something that showed improvement by player. However, I learned quickly that this would not be feasible due to the number of players and games listed in the file.  
 
 [![image](https://github.com/user-attachments/assets/45cb95e5-8833-4bf7-99af-da2e6be1917d)](https://vizhub.com/ejhudson33/cd2fcf9c405c4ffda0289e2c315575de)
 
-Here is another prototype that I created that resembles one of my sketches more closely. It is a bar chart that shows average hitting percentage per school. In future iterations, I would like to parse the data not only by school but by year similar to my sketches. I also need to go back to the original CSV file and pull all data for Big Ten Schools. For these iterations, I only chose the top 4000 lines of the CSV. 
+Here is another prototype that I created that resembles one of my sketches more closely. It is a bar chart that shows average hitting percentage per school. Eventhough I did not go through with a bar chart for my final design, this prototype was important because I learned how to group the data by school.  For these iterations, I only chose the top 4000 lines of the CSV. 
 
 [![image](https://github.com/user-attachments/assets/c073feba-37fd-417b-bb7d-d45f6070ecb7)](https://vizhub.com/ejhudson33/48c0a216565f489fb56cb74f4c3d60ce)
 
@@ -42,11 +45,11 @@ For the next iteration of my project, I decided to add movement to the graph. If
 
 My latest iteration is similar to the past one, however, I have been working on readability. I added lines on the chart to make it easier to see where each point lies as well as adjusting the x axis. 
 
-[![image](https://github.com/user-attachments/assets/b41e5191-8778-4e75-888d-42cbcc9eeddf)(https://vizhub.com/ejhudson33/15ca03d986b740ada71e3b29cfa5c819)
+[![image](https://github.com/user-attachments/assets/b41e5191-8778-4e75-888d-42cbcc9eeddf)](https://vizhub.com/ejhudson33/15ca03d986b740ada71e3b29cfa5c819)
 
 To add to the readability of the graphic, I decided to make the points on the graph less opaque so that it was easier to see schools that were overlapping. It makes it a little easier to read, but I still feel like it is difficult to identify some schools that are overlapped by ohers. I also decided to add a legend so that a user can see the total list of schools. 
 
-[![image](https://github.com/user-attachments/assets/a2f7129c-ebbe-4a91-80f3-f527c3e8c2fc)(https://vizhub.com/ejhudson33/5b49a3acdda64be5bb6eb06e828292f4)
+[![image](https://github.com/user-attachments/assets/a2f7129c-ebbe-4a91-80f3-f527c3e8c2fc)](https://vizhub.com/ejhudson33/5b49a3acdda64be5bb6eb06e828292f4)
 
 ## Open Questions
 
