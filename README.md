@@ -33,11 +33,12 @@ My first step in moving forward with this project was to create a proof of conce
 
 [![image](https://github.com/user-attachments/assets/45cb95e5-8833-4bf7-99af-da2e6be1917d)](https://vizhub.com/ejhudson33/cd2fcf9c405c4ffda0289e2c315575de)
 
-Here is another prototype that I created that resembles one of my sketches more closely. It is a bar chart that shows average hitting percentage per school. Eventhough I did not go through with a bar chart for my final design, this prototype was important because I learned how to group the data by school.  For these iterations, I only chose the top 4000 lines of the CSV. 
+Here is another prototype that I created that resembles one of my sketches more closely. It is a bar chart that shows average hitting percentage per school. Eventhough I did not go through with a bar chart for my final design, this prototype was important because I learned how to group the data by school.  For these iterations, I only chose the top 4000 lines of the CSV. I had not considered eliminating columns instead of rows at this point in my project development. 
 
 [![image](https://github.com/user-attachments/assets/c073feba-37fd-417b-bb7d-d45f6070ecb7)](https://vizhub.com/ejhudson33/48c0a216565f489fb56cb74f4c3d60ce)
 
 Here is the next iteration of my project. I changed the X axis to show average digs for each school and made the chart a scatterplot. You can also hover over each circle to see which school it is representing. 
+
 [![image](https://github.com/user-attachments/assets/fdd00e54-ee31-4a04-ba49-9e29af218982)](https://vizhub.com/ejhudson33/4f2e32f4551e42b281920e39476a553b)
 
 For the next iteration of my project, I decided to add movement to the graph. If a user presses the 'Play' button, the points will move throughout the graph to represent data for 2017, 2018 an 2019. The points now have letters to represent each school. If you hover over one of the points, it will show the average hitting percentage and average digs for that season. I also removed the background color to make the visualization smoother.
