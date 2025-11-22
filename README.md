@@ -53,7 +53,8 @@ To add to the readability of the graphic, I decided to make the points on the gr
 
 [![image](https://github.com/user-attachments/assets/a2f7129c-ebbe-4a91-80f3-f527c3e8c2fc)](https://vizhub.com/ejhudson33/5b49a3acdda64be5bb6eb06e828292f4)
 
-After receiving peer feedback, I decided to make my finishing touches. This included making small code fixes to improve a bug with the pause/play button. One of my classmates found that the play/pause button stopped working after it was used once. This button was a critical part of the project because it allows the user to stop and analyze one year of data at a time. However, I was able to resolve this bug with a quick code fix, and it now allows for pausing more than once. 
+After receiving peer feedback, I decided to make my finishing touches. This included making small code fixes to improve a bug with the pause/play button. One of my classmates found that the play/pause button stopped working after it was used once. This button was a critical part of the project because it allows the user to stop and analyze one year of data at a time. However, I was able to resolve this bug with a quick code fix, and it now allows for pausing more than once. Below is the link to the final version: 
+https://vizhub.com/ejhudson33/5b49a3acdda64be5bb6eb06e828292f4
 
 ## Conclusion 
 
